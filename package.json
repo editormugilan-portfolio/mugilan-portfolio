@@ -1,0 +1,17 @@
+{
+  "name": "mugilan-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for MUGILAN.S",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx serve -p 8080",
+    "dev": "npx serve -p 8080"
+  },
+  "keywords": [
+    "portfolio",
+    "video-editor"
+  ],
+  "author": "MUGILAN.S",
+  "license": "ISC",
+  "dependencies": {}
+}
