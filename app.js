@@ -341,5 +341,18 @@ document.addEventListener('DOMContentLoaded', () => {
           : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4L8 8H4v8h4l4 4V4zm4.5 4v8c1.33-1 2.25-2.6 2.25-4.5S17.83 7 16.5 8zM16.5 2c3.16 1.8 5.25 5.27 5.25 9.5s-2.09 7.7-5.25 9.5v-2.1c2.1-1.48 3.5-3.9 3.5-6.9s-1.4-5.42-3.5-6.9V2z"/></svg>';
       });
     }
-  });
+    // Hero Video Unmute Logic
+  const heroVideo = document.querySelector('.hero-video-wrapper video');
+  const heroUnmuteBtn = document.getElementById('hero-unmute-btn');
+  if (heroVideo && heroUnmuteBtn) {
+    heroUnmuteBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      heroVideo.muted = !heroVideo.muted;
+      heroUnmuteBtn.innerHTML = heroVideo.muted
+        ? '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>'
+        : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4L8 8H4v8h4l4 4V4zm4.5 4v8c1.33-1 2.25-2.6 2.25-4.5S17.83 7 16.5 8zM16.5 2c3.16 1.8 5.25 5.27 5.25 9.5s-2.09 7.7-5.25 9.5v-2.1c2.1-1.48 3.5-3.9 3.5-6.9s-1.4-5.42-3.5-6.9V2z"/></svg>';
+    });
+  }
+});
 });
