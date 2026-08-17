@@ -1,4 +1,0 @@
-{
-  "installCommand": "git lfs pull",
-  "buildCommand": "echo 'Forcing build step so Git LFS pulls successfully...'"
-}
