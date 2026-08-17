@@ -170,7 +170,7 @@ section {
   max-width: 600px;
   z-index: 3;
   position: relative;
-  margin-right: -4vw; /* Reduced overlap so text is readable */
+  margin-right: -8vw; /* Creates overlap with the video for depth */
 }
 
 .hero-text h1, .hero-text .gsap-hero-text {
@@ -195,7 +195,7 @@ section {
   max-width: 800px;
   border-radius: 12px;
   overflow: hidden;
-  z-index: 5;
+  z-index: 1;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   transition: var(--transition);
 }
@@ -225,7 +225,7 @@ section {
   .hero-text {
     text-align: left;
     margin-right: 0; /* Reset overlap on mobile */
-    margin-top: -2rem; /* Optional: Slight vertical overlap on mobile instead */
+    margin-top: -6rem; /* Make text overlap the video significantly on mobile */
   }
   .hero-buttons {
     flex-direction: column;
@@ -400,7 +400,8 @@ section {
 }
 
 .video-container:hover .unmute-btn,
-.video-container.is-playing .unmute-btn {
+.video-container.is-playing .unmute-btn,
+.hero-video-wrapper .unmute-btn {
   opacity: 1;
 }
 
