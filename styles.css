@@ -225,7 +225,7 @@ section {
   .hero-text {
     text-align: left;
     margin-right: 0; /* Reset overlap on mobile */
-    margin-top: -6rem; /* Make text overlap the video significantly on mobile */
+    margin-top: -4.5rem; /* Make text overlap the video significantly on mobile */
   }
   .hero-buttons {
     flex-direction: column;
@@ -382,8 +382,8 @@ section {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -406,8 +406,8 @@ section {
 }
 
 .unmute-btn svg {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   fill: currentColor;
 }
 
