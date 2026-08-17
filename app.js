@@ -341,7 +341,9 @@ document.addEventListener('DOMContentLoaded', () => {
           : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4L8 8H4v8h4l4 4V4zm4.5 4v8c1.33-1 2.25-2.6 2.25-4.5S17.83 7 16.5 8zM16.5 2c3.16 1.8 5.25 5.27 5.25 9.5s-2.09 7.7-5.25 9.5v-2.1c2.1-1.48 3.5-3.9 3.5-6.9s-1.4-5.42-3.5-6.9V2z"/></svg>';
       });
     }
-    // Hero Video Unmute Logic
+  });
+
+  // Hero Video Unmute Logic
   const heroVideo = document.querySelector('.hero-video-wrapper video');
   const heroUnmuteBtn = document.getElementById('hero-unmute-btn');
   if (heroVideo && heroUnmuteBtn) {
@@ -354,5 +356,4 @@ document.addEventListener('DOMContentLoaded', () => {
         : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4L8 8H4v8h4l4 4V4zm4.5 4v8c1.33-1 2.25-2.6 2.25-4.5S17.83 7 16.5 8zM16.5 2c3.16 1.8 5.25 5.27 5.25 9.5s-2.09 7.7-5.25 9.5v-2.1c2.1-1.48 3.5-3.9 3.5-6.9s-1.4-5.42-3.5-6.9V2z"/></svg>';
     });
   }
-});
 });
