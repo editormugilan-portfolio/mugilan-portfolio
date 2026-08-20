@@ -7,12 +7,13 @@
   <meta name="description" content="Portfolio of MUGILAN.S, a video editor specializing in CapCut.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="global-bg-image"></div>
   <nav>
-    <div class="nav-brand">MUGILAN</div>
+    <div class="nav-brand"><a href="index.html">MUGILAN</a></div>
     <div class="nav-links">
       <a href="work.html">Work</a>
       <a href="contact.html">Contact</a>
@@ -20,122 +21,88 @@
   </nav>
 
   <main>
-    <section class="hero">
-      <div class="container hero-content reveal">
-        <div class="hero-text">
-          <div class="hero-subtitle gsap-fade-in">Video Editing</div>
-          <h1 class="gsap-hero-text">MUGILAN.S</h1>
-          <p class="gsap-fade-in">Premium editorial, storytelling, and ad creatives for social.</p>
-          <div class="hero-buttons">
-            <a href="work.html" class="cta-button">
-              View Work
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </a>
-            <a href="contact.html" class="cta-button secondary">
-              Contact Me
-            </a>
-          </div>
+    <section class="hero-redesign container">
+      <div class="hero-tier top-tier">
+        <div class="hero-logo-col">
+          <img src="LOGO.png" alt="Mugilan logo" class="main-logo-img">
         </div>
-        
-        <div class="hero-video-wrapper">
-          <video autoplay muted loop playsinline preload="metadata">
-            <source src="HERO.MP4" type="video/mp4">
-          </video>
-          <div class="unmute-btn" id="hero-unmute-btn" aria-label="Toggle mute" style="z-index: 10;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
-          </div>
+        <div class="hero-title-col">
+          <div class="hey-im">HEY I'M</div>
+          <div class="entrepreneur">ENTREPRENEUR</div>
+          <h1 class="main-title">CINEMATOGRAPHER ,<br>PHOTOGRAPHER &amp; EDITOR</h1>
+          <div class="portfolio-text">PORTFOLIO</div>
+          <div class="scroll-arrow" aria-hidden="true">↓</div>
         </div>
       </div>
-    </section>
 
-    <!-- About section placed directly below hero so it's visible on scroll -->
-    <section id="about" class="container about-section reveal two-column-grid" style="padding-top: 150px; padding-bottom: 150px;">
-      <div class="about-text">
-        <h2 class="gsap-fade-in" style="font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1rem;">Crafting the Scroll</h2>
-        <p class="gsap-fade-in" style="max-width: 800px; font-size: 1.1rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem;">
-          I am a video editor. In a world where attention is the most valuable currency, I craft edits that stop the scroll, retain viewers, and drive engagement. My style is rooted in pacing, aesthetic color grading, and seamless transitions. Whether it's a high-energy commercial, an atmospheric music edit, or compelling social storytelling, every frame is intentional.
-        </p>
-        
-        <div class="tools-list gsap-fade-in" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-          <span class="tool-tag" style="font-size: 0.75rem; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; padding: 0.5rem 1.25rem; border: 1px solid #333; border-radius: 30px;">CapCut Pro</span>
-          <span class="tool-tag" style="font-size: 0.75rem; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; padding: 0.5rem 1.25rem; border: 1px solid #333; border-radius: 30px;">Color Grading</span>
-          <span class="tool-tag" style="font-size: 0.75rem; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; padding: 0.5rem 1.25rem; border: 1px solid #333; border-radius: 30px;">Sound Design</span>
-          <span class="tool-tag" style="font-size: 0.75rem; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; padding: 0.5rem 1.25rem; border: 1px solid #333; border-radius: 30px;">Motion Graphics</span>
+      <div class="hero-tier middle-tier">
+        <div class="experience-col">
+          <h2><span class="font-playfair">02 Years</span><br><span class="font-lato">of working experience</span></h2>
+          <p>A creator who is passionate about creating captivating and polished video edits. Proficient in CapCut Pro with expertise in color correction, Crisp content delivery. Enthusiastic about Story telling and committed to delivering exceptional video edits that exceeds client expectations</p>
+          <ul class="perks-list">
+            <li><span class="star-icon" aria-hidden="true">✦</span> Affordable Prices</li>
+            <li><span class="star-icon" aria-hidden="true">✦</span> Premium Quality Products</li>
+            <li><span class="star-icon" aria-hidden="true">✦</span> On Time Project Delivery</li>
+          </ul>
+        </div>
+        <div class="video-col">
+          <div class="hero-video-wrapper">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="HERO.MP4" type="video/mp4">
+            </video>
+            <button type="button" class="unmute-btn hero-unmute-btn-class" aria-label="Toggle mute">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+            </button>
+          </div>
         </div>
       </div>
-      <div class="about-image gsap-fade-in" style="border-radius: 12px; overflow: hidden; aspect-ratio: 4/5;">
-        <img src="IMG_4782.JPG.jpeg" alt="MUGILAN.S" style="width: 100%; height: 100%; object-fit: cover;">
+
+      <div class="hero-tier bottom-tier">
+        <div class="headshot-col">
+          <img src="IMG_4782.JPG.jpeg" alt="Headshot" class="hero-headshot">
+        </div>
+        <div class="stats-col">
+          <div class="stat-divider"></div>
+          <div class="stat-block">
+            <div class="stat-label">HAPPY CLIENTS</div>
+            <div class="stat-info">
+              <h3>100+</h3>
+              <p>"Thrilled clients, happy us!<br>Your satisfaction drives our passion.<br>Thank you for choosing us; we're<br>committed to exceeding your<br>expectations!."</p>
+            </div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-block">
+            <div class="stat-label">PROJECTS<br>COMPLETED</div>
+            <div class="stat-info">
+              <h3>2000+</h3>
+              <p>Successfully completed diverse<br>projects showcasing our expertise<br>and dedication. Explore our portfolio<br>to witness our commitment to quality<br>and innovation.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <!-- GSAP Libraries BEFORE app.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="app.js"></script>
 
-  <div class="footer-reveal-container">
-    <footer class="cinematic-footer" id="cinematic-footer">
-      <div class="footer-aurora"></div>
-      <div class="footer-bg-grid"></div>
-      <div class="footer-giant-bg-text">MUGILAN</div>
-
-      <div class="footer-marquee-container">
-        <div class="footer-marquee-track">
-          <div class="footer-marquee-item">
-            <span>Premium Editorial</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-            <span>Aesthetic Color Grading</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-            <span>Seamless Transitions</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-            <span>Scroll-Stopping</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-            <span>Social Storytelling</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-          </div>
-          <div class="footer-marquee-item">
-            <span>Premium Editorial</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-            <span>Aesthetic Color Grading</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-            <span>Seamless Transitions</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-            <span>Scroll-Stopping</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-            <span>Social Storytelling</span> <span style="color: rgba(255,255,255,0.3)">✦</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-main-content">
-        <h2 class="footer-heading footer-stagger">LET'S CREATE</h2>
-        <div class="footer-links-wrapper footer-stagger">
-          <div class="footer-primary-links">
-            <a href="mailto:smugilan037@gmail.com" class="footer-glass-pill magnetic-btn">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-              Email Me
-            </a>
-            <a href="https://wa.me/918667052739" target="_blank" class="footer-glass-pill magnetic-btn">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-              WhatsApp
-            </a>
-            <a href="https://www.instagram.com/itz._.mugilan_" target="_blank" class="footer-glass-pill magnetic-btn">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-              Follow Me
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom-bar footer-stagger">
-        <div class="footer-credits">itz._.mugilan_</div>
-        <a href="contact.html" class="footer-crafted-badge" style="text-decoration: none; color: inherit; cursor: pointer;">
-          <img src="IMG_4782.JPG.jpeg" class="headshot-mini" alt="Mugilan">
-          <span>Available for Freelance</span>
-          <span class="animate-heartbeat">✦</span>
-        </a>
-        <button class="back-to-top magnetic-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
-        </button>
-      </div>
-    </footer>
+        <footer class="normal-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <h3>MUGILAN.S</h3>
+      <p>Cinematographer, Photographer & Editor</p>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:smugilan037@gmail.com">Email Me</a>
+      <a href="https://wa.me/918667052739" target="_blank">WhatsApp</a>
+      <a href="https://www.instagram.com/itz._.mugilan_" target="_blank">Instagram</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Mugilan. All rights reserved.</p>
+  </div>
+</footer>
   </div>
 </body>
 </html>
-
-
