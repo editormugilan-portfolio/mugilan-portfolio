@@ -5,9 +5,7 @@
   flex-direction: column;
   gap: 1.1rem;
   position: relative;
-  background:
-    radial-gradient(circle at 18% 12%, rgba(255, 210, 70, 0.22) 0%, transparent 32%),
-    radial-gradient(circle at 50% 40%, #1c2126 0%, #0a0c0e 72%, #020304 100%);
+  background: radial-gradient(circle at 18% 12%, rgba(255, 210, 70, 0.16) 0%, transparent 32%);
 }
 
 .hero-redesign::before {
