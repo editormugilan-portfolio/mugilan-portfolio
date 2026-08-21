@@ -1,6 +1,6 @@
 /* Home: ABU-style two-column layout on phone and desktop */
 .hero-redesign {
-  padding: 4.25rem 0.7rem 2.5rem;
+  padding: 6rem 0.7rem 2.5rem;
   display: flex;
   flex-direction: column;
   gap: 1.1rem;

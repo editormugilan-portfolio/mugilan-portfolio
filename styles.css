@@ -1489,10 +1489,6 @@ main {
   100% { transform: translateY(0); }
 }
 
-.experience-col {
-  overflow: hidden;
-}
-
 .experience-col h2 {
   color: #ffffff;
   line-height: 1.1;
