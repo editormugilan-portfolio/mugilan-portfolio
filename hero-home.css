@@ -191,19 +191,6 @@
 
 .unmute-btn { appearance: none; }
 
-.hero-tier.bottom-tier {
-  grid-template-columns: 0.85fr 1.15fr;
-  gap: 1.25rem;
-  align-items: start;
-}
-
-@media (max-width: 480px) {
-  .hero-tier.bottom-tier {
-    grid-template-columns: 0.75fr 1.25fr;
-    gap: 0.75rem;
-  }
-}
-
 @media (min-width: 700px) {
   .hero-redesign {
     padding: 7.5rem 4vw 4rem;
